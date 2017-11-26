@@ -1,15 +1,15 @@
 #ifndef _PARAMETRIZATOR
 #define _PARAMETRIZATOR
 
-#include <defines.h>
+#include "defines.h"
 
 
-#include <param_collapse.h>
-#include <param_flip.h>
+#include "param_collapse.h"
+#include "param_flip.h"
 
 
-#include <param_mesh.h>
-#include <iso_parametrization.h>
+#include "param_mesh.h"
+#include "iso_parametrization.h"
 
 ///auxiliary structures
 
@@ -27,21 +27,20 @@
 #include <vcg/complex/algorithms/local_optimization.h>
 
 
-#include <local_parametrization.h>
-#include <mesh_operators.h>
+#include "local_parametrization.h"
+#include "mesh_operators.h"
 #include <vcg/space/color4.h>
-#include <dual_coord_optimization.h>
+#include "dual_coord_optimization.h"
 #include <float.h>
-#include <lm.h>
 #ifndef _MESHLAB
 #include <wrap/io_trimesh/export_ply.h>
 #endif
 //#include <EquilaterizeMesh.h>
 
-#include <opt_patch.h>
-#include <local_optimization.h>
-#include <statistics.h>
-#include <stat_remeshing.h>
+#include "opt_patch.h"
+#include "local_optimization.h"
+#include "statistics.h"
+#include "stat_remeshing.h"
 
 //extern int step_global;
 //

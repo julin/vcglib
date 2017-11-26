@@ -1,6 +1,6 @@
 #ifndef _DIAMSAMPLER
 #define _DIAMSAMPLER
-#include <stat_remeshing.h>
+#include "stat_remeshing.h"
 #include <vcg/complex/algorithms/clean.h>
 
 class DiamSampler{
